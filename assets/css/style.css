@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*-----------Color-----------*/
+
+.ui-menu-color {
+  background-color: #ececec;
+}
+
+/*----------Fonts----------*/
+
+.tabs {
+  font-family: "Raleway";
+  font-weight: 700px;
+  font-size: 20px;
+}
