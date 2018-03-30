@@ -32,3 +32,25 @@
 }
 
 /*----------Footer----------*/
+
+footer {
+  background-color: #525252;
+  color: #fafafa;
+  min-height: 70px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.footer-item a {
+  text-decoration: none;
+}
+
+.footer-item i {
+  font-size: 20px;
+  color: #ffffff
+}
+
+.footer-item i:hover {
+  border-radius: 50%;
+  color: rgb(0, 208, 255);
+}
