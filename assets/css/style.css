@@ -3,7 +3,21 @@
 /*-----------Color-----------*/
 
 .ui-menu-color {
-  background-color: #ececec;
+  background-color: #bdbdbd;
+}
+
+.ui-main-color-latest-news {
+  background-color: #bdbdbd
+}
+
+.ui-main-color-music {
+  background-color: #bdbdbd;
+}
+
+/*----------Header----------*/
+
+header {
+  background-color: #bdbdbd;
 }
 
 /*----------Menu----------*/
@@ -14,15 +28,13 @@
 }
 
 .menu-item a  {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
   height: 40px;
-  margin: 0 auto;
 }
 
 .menu-item span {
   display: block;
-  width: 100%;
   text-transform: uppercase;
   font-family: "raleway";
   font-size: 20px;
@@ -31,14 +43,73 @@
   padding-top: 13px;
 }
 
+/*----------Main----------*/
+
+  info {
+    margin: 0;
+  }
+
+  #info li {
+    padding: 0;
+  }
+
+  .main-latest-news {
+    width: 70%;
+    text-decoration: none;
+    height: 60px;
+    text-align: center;
+    padding: 0;
+    border: solid #ffffff 8px;
+  }
+
+  .main-latest-news span {
+    padding-top: 7px;
+    display: block;
+    color: #ffffff;
+    font-family: "Exo";
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+
+  .main-music {
+    width: 30%;
+    text-decoration: none;
+    height: 60px;
+    text-align: center;
+    padding: 0;
+    border: solid #ffffff 8px;
+  }
+
+  .main-music span {
+    padding-top: 7px;
+    display: block;
+    color: #ffffff;
+    font-family: "Exo";
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+
+/*----------Banner----------*/
+
+.banner-image {
+  background-image: url(../images/placeholder-banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+
+}
+
 /*----------Footer----------*/
 
 footer {
-  background-color: #525252;
+  background-color: #bdbdbd;
   color: #fafafa;
   min-height: 70px;
   margin: 0;
-  padding-top: 20px;
+  padding-top: 17px;
 }
 
 .footer-item a {
@@ -46,11 +117,24 @@ footer {
 }
 
 .footer-item i {
-  font-size: 20px;
+  font-size: 30px;
   color: #ffffff
 }
 
+/*----------Hover----------*/
+
 .footer-item i:hover {
-  border-radius: 50%;
   color: rgb(0, 208, 255);
+  transition: all 0.50s ease-in-out;
+  -moz-transition: all 0.50s ease-in-out;
+  -webkit-transition: all 0.50s ease-in-out;
+  -o-transition: all 0.50s ease-in-out;
+}
+
+.hvr-shadow:hover {
+  color: rgb(0, 208, 255);
+  transition: all 0.50s ease-in-out;
+  -moz-transition: all 0.50s ease-in-out;
+  -webkit-transition: all 0.50s ease-in-out;
+  -o-transition: all 0.50s ease-in-out;
 }
