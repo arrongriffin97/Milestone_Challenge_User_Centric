@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/*-----------Temporary-----------*/
+.temp-filler {
+  height: 800px;
+}
+
 /*-----------Color-----------*/
 
-.ui-menu-color {
-  background-color: #bdbdbd;
+background {
+  color: #ffffff;
 }
 
 .ui-main-color-latest-news {
@@ -21,6 +26,14 @@ header {
 }
 
 /*----------Menu----------*/
+
+.menu {
+  background-image: url(../images/menu.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 60px;
+}
 
 .menu-item {
   height: 60px;
@@ -45,12 +58,9 @@ header {
 
 /*----------Main----------*/
 
-  info {
+  .main {
     margin: 0;
-  }
-
-  #info li {
-    padding: 0;
+    padding-top: 3px;
   }
 
   .main-latest-news {
@@ -60,6 +70,7 @@ header {
     text-align: center;
     padding: 0;
     border: solid #ffffff 8px;
+    outline: solid #ffffff 1px;
   }
 
   .main-latest-news span {
@@ -79,6 +90,7 @@ header {
     text-align: center;
     padding: 0;
     border: solid #ffffff 8px;
+    outline: solid #ffffff 1px;
   }
 
   .main-music span {
@@ -94,7 +106,7 @@ header {
 /*----------Banner----------*/
 
 .banner-image {
-  background-image: url(../images/placeholder-banner.jpg);
+  background-image: url(../images/deftones_banner.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
