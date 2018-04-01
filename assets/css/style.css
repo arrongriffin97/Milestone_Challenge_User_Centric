@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*-----------Temporary-----------*/
-.temp-filler {
-  height: 600px;
-}
-
-/*-----------Color-----------*/
-
-
-/*----------Header----------*/
-
 /*----------Menu----------*/
 
 .menu {
@@ -47,7 +37,7 @@
   padding-top: 13px;
 }
 
-/*----------Main----------*/
+/*----------Main Front Page Content----------*/
 
   .main {
     margin: 0;
@@ -102,6 +92,77 @@
     letter-spacing: 1px;
   }
 
+  .main-upcoming-events {
+    width: 100%;
+    text-decoration: none;
+    height: 60px;
+    text-align: center;
+    padding: 0;
+    border: solid #ffffff 8px;
+    outline: solid #ffffff 1px;
+    background-image: url(../images/bar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .main-upcoming-events span {
+    padding-top: 7px;
+    display: block;
+    color: #ffffff;
+    font-family: "Exo";
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+
+  .content {
+    margin: 0;
+    padding-top: 3px;
+  }
+
+  .latest-news {
+    width: 70%;
+  }
+
+  .music {
+    width: 30%;
+  }
+
+  .latest-news a {
+    text-decoration: underline;
+    color: #A88E2F;
+  }
+
+  .latest-news span {
+    color: #D478C1;
+  }
+
+  .latest-news p {
+    font-family: "Exo";
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .upcoming-events {
+    margin: 0;
+    align-content: center;
+  }
+
+  .upcoming-events p {
+    line-height: 70%;
+    padding-top: 5px;
+  }
+
+  .upcoming-events a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .upcoming-events span {
+    line-height: 50%;
+  }
+
 /*----------Banner----------*/
 
 .banner{
@@ -141,17 +202,17 @@ footer {
 /*----------Hover----------*/
 
 .footer-item i:hover {
-  color: rgb(0, 208, 255);
-  transition: all 0.50s ease-in-out;
-  -moz-transition: all 0.50s ease-in-out;
-  -webkit-transition: all 0.50s ease-in-out;
-  -o-transition: all 0.50s ease-in-out;
+  color: rgb(176, 50, 113);
+  transition: all 0.20s ease-in-out;
+  -moz-transition: all 0.20s ease-in-out;
+  -webkit-transition: all 0.20s ease-in-out;
+  -o-transition: all 0.20s ease-in-out;
 }
 
 .hvr-shadow:hover {
-  color: rgb(0, 208, 255);
-  transition: all 0.50s ease-in-out;
-  -moz-transition: all 0.50s ease-in-out;
-  -webkit-transition: all 0.50s ease-in-out;
-  -o-transition: all 0.50s ease-in-out;
+  color: rgb(176, 50, 113);
+  transition: all 0.20s ease-in-out;
+  -moz-transition: all 0.520s ease-in-out;
+  -webkit-transition: all 0.20s ease-in-out;
+  -o-transition: all 0.20s ease-in-out;
 }
