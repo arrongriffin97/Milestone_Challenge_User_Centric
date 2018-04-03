@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/*----------Temporary----------*/
+
+.tour-events {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.btn-in {
+}
+
+.btn-out {
+}
+
 /*----------Menu----------*/
 
 .menu {
@@ -14,6 +27,7 @@
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 999;
+  border-bottom: solid #a5a5a5 1px;
 }
 
 .menu-item {
@@ -152,6 +166,10 @@
   .upcoming-events p {
     line-height: 70%;
     padding-top: 5px;
+    font-family: "Exo";
+    font-size: 20px;
+    font-weight: 400;
+
   }
 
   .upcoming-events a {
@@ -161,6 +179,35 @@
 
   .upcoming-events span {
     line-height: 50%;
+  }
+
+  .events {
+    margin: 0;
+    text-align: center;
+  }
+
+  .events a {
+    color: #A88E2F;
+  }
+
+  .events span {
+    color: #D478C1;
+  }
+
+  .see-more {
+    margin: 0;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .see-more p {
+    font-family: "Exo"
+  }
+
+  .see-more a {
+    color: #A88E2F;
+    text-decoration: none;
+    font-size: 30px;
   }
 
 /*----------Banner----------*/
