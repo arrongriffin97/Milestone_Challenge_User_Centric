@@ -1,39 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*----------Temporary----------*/
+/*----------Background-Colors----------*/
 
-.tour-events {
-  padding-top: 70px;
-  padding-bottom: 70px;
+body {
+  background-color: #070707;
 }
-
-.btn-in {
-}
-
-.btn-out {
-}
-
-/*----------Menu----------*/
 
 .menu {
-  background-image: url(../images/menu.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  position: fixed;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  z-index: 999;
-  border-bottom: solid #a5a5a5 1px;
+  background-color: #070707;
 }
 
-.menu-item {
-  height: 60px;
-  text-align: center;
+.index-content {
+  background-color: #070707;
 }
+
+.bar-latest-news {
+  background-color: snow;
+}
+
+.bar-music {
+  background-color: snow;
+}
+
+.latest-news {
+  background-color: #070707;
+}
+
+.music {
+  background-color: #070707;
+}
+
+/*----------Text----------*/
+
+/*index.html*/
 
 .menu-item a  {
   color: #ffffff;
@@ -51,180 +50,156 @@
   padding-top: 13px;
 }
 
-/*----------Main Front Page Content----------*/
+.bar-latest-news span {
+  margin: 0 auto;
+  display: block;
+  color: #070707;
+  font-family: "Exo";
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
 
-  .main {
-    margin: 0;
-    padding-top: 3px;
-  }
+.bar-music span {
+  margin: 0 auto;
+  display: block;
+  color: #070707;
+  font-family: "Exo";
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
 
-  .main-latest-news {
-    width: 70%;
-    text-decoration: none;
-    height: 60px;
-    text-align: center;
-    padding: 0;
-    border: solid #ffffff 8px;
-    outline: solid #ffffff 1px;
-    background-image: url(../images/bar.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.latest-news span {
+  color: #D478C1;
+}
 
-  .main-latest-news span {
-    padding-top: 7px;
-    display: block;
-    color: #ffffff;
-    font-family: "Exo";
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 1px;
-  }
+.latest-news a {
+  text-decoration: underline;
+  color: #A88E2F;
+}
 
-  .main-music {
-    width: 30%;
-    text-decoration: none;
-    height: 60px;
-    text-align: center;
-    padding: 0;
-    border: solid #ffffff 8px;
-    outline: solid #ffffff 1px;
-    background-image: url(../images/bar.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.latest-news p {
+  font-family: "Exo";
+  font-size: 20px;
+  font-weight: 500;
+}
 
-  .main-music span {
-    padding-top: 7px;
-    display: block;
-    color: #ffffff;
-    font-family: "Exo";
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 1px;
-  }
 
-  .main-upcoming-events {
-    width: 100%;
-    text-decoration: none;
-    height: 60px;
-    text-align: center;
-    padding: 0;
-    border: solid #ffffff 8px;
-    outline: solid #ffffff 1px;
-    background-image: url(../images/bar.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+/*tour.html*/
 
-  .main-upcoming-events span {
-    padding-top: 7px;
-    display: block;
-    color: #ffffff;
-    font-family: "Exo";
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 1px;
-  }
+.tour-events p {
+  font-family: "exo";
+  font-size: 20px;
+}
 
-  .content {
-    margin: 0;
-    padding-top: 3px;
-  }
+.tour-events h1 {
+  font-family: "exo";
+  font-size: 20px;
+}
 
-  .latest-news {
-    width: 70%;
-  }
+/*footer*/
 
-  .music {
-    width: 30%;
-  }
+.footer-item a {
+  text-decoration: none;
+}
 
-  .latest-news a {
-    text-decoration: underline;
-    color: #A88E2F;
-  }
+.footer-item i {
+  font-size: 30px;
+  color: #ffffff
+}
 
-  .latest-news span {
-    color: #D478C1;
-  }
+/*----------Padding/Margins/Borders----------*/
 
-  .latest-news p {
-    font-family: "Exo";
-    font-size: 20px;
-    font-weight: 500;
-  }
+/*index.html*/
 
-  .upcoming-events {
-    margin: 0;
-    align-content: center;
-  }
+.bar-latest-news {
+  padding: 0;
+  border: solid #070707 8px;
+  outline: solid #070707 1px;
+}
 
-  .upcoming-events p {
-    line-height: 70%;
-    padding-top: 5px;
-    font-family: "Exo";
-    font-size: 20px;
-    font-weight: 400;
+.bar-music {
+  padding: 0;
+  border: solid #070707 8px;
+  outline: solid #070707 1px;
+}
 
-  }
 
-  .upcoming-events a {
-    text-decoration: none;
-    font-size: 20px;
-  }
+/*tour.html*/
 
-  .upcoming-events span {
-    line-height: 50%;
-  }
+.tour-events {
+  margin-top: 90px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #070707;
+  padding-bottom: 10px;
+}
 
-  .events {
-    margin: 0;
-    text-align: center;
-  }
 
-  .events a {
-    color: #A88E2F;
-  }
+/*----------Sizing----------*/
 
-  .events span {
-    color: #D478C1;
-  }
+/*index.html*/
 
-  .see-more {
-    margin: 0;
-    text-align: center;
-    padding-top: 30px;
-  }
+.bar-latest-news {
+  width: 70%;
+  height: 60px;
+}
 
-  .see-more p {
-    font-family: "Exo"
-  }
+.bar-music {
+  width: 30%;
+  height: 60px;
+}
 
-  .see-more a {
-    color: #A88E2F;
-    text-decoration: none;
-    font-size: 30px;
-  }
+.latest-news {
+  width: 70%;
+}
+
+.music {
+  width: 30%;
+}
+
+/*tour.html*/
+
+/*----------Styling----------*/
+
+/*index.html*/
+
+.bar-latest-news {
+  text-decoration: none;
+  text-align: center;
+}
+
+.bar-music {
+  text-decoration: none;
+  text-align: center;
+}
+
+/*tour.html*/
+
 
 /*----------Banner----------*/
 
-.banner{
-  padding-top: 60px;
+  .banner{
+    margin-top: 60px;
+    background-image: url(../images/deftones_b.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 420px;
 }
 
-.banner-image {
-  background-image: url(../images/deftones_banner.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 340px;
+/*----------Recurring----------*/
+
+.menu {
+  width: 100%;
+  position: fixed;
+  z-index: 999;
 }
 
-/*----------Footer----------*/
+.menu-item {
+  height: 60px;
+  text-align: center;
+}
 
 footer {
   color: #fafafa;
@@ -249,15 +224,15 @@ footer {
 /*----------Hover----------*/
 
 .footer-item i:hover {
-  color: rgb(176, 50, 113);
+  color: #c4c4c4;
   transition: all 0.20s ease-in-out;
   -moz-transition: all 0.20s ease-in-out;
   -webkit-transition: all 0.20s ease-in-out;
   -o-transition: all 0.20s ease-in-out;
 }
 
-.hvr-shadow:hover {
-  color: rgb(176, 50, 113);
+.hvr-grow:hover {
+  color: #c4c4c4;
   transition: all 0.20s ease-in-out;
   -moz-transition: all 0.520s ease-in-out;
   -webkit-transition: all 0.20s ease-in-out;
