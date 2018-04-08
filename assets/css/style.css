@@ -3,80 +3,57 @@
 /*----------Background-Colors----------*/
 
 body {
-  background-color: #070707;
+  background-color: #000;
 }
 
 .menu {
-  background-color: #070707;
+  border-bottom: 2px solid transparent;
 }
-
-.index-content {
-  background-color: #070707;
-}
-
-.bar-latest-news {
-  background-color: snow;
-}
-
-.bar-music {
-  background-color: snow;
-}
-
-.latest-news {
-  background-color: #070707;
-}
-
-.music {
-  background-color: #070707;
-}
-
-/*----------Text----------*/
-
-/*index.html*/
 
 .menu-item a  {
-  color: #ffffff;
-  text-decoration: none;
-  height: 40px;
-}
-
-.menu-item span {
-  display: block;
-  text-transform: uppercase;
-  font-family: "raleway";
-  font-size: 20px;
-  font-weight: 300;
-  letter-spacing: 4px;
-  padding-top: 13px;
+  color: #a2a2a2;
 }
 
 .bar-latest-news span {
-  margin: 0 auto;
-  display: block;
-  color: #070707;
-  font-family: "Exo";
-  font-size: 26px;
-  font-weight: 400;
-  letter-spacing: 1px;
+  color: #EEE;
 }
 
-.bar-music span {
-  margin: 0 auto;
-  display: block;
-  color: #070707;
-  font-family: "Exo";
-  font-size: 26px;
-  font-weight: 400;
-  letter-spacing: 1px;
+.latest-news a {
+  color: #A88E2F;
 }
 
 .latest-news span {
   color: #D478C1;
 }
 
+.well {
+  background-color: transparent;
+  border: 2px solid transparent;
+}
+
+.tour-events {
+  border-bottom: 2px solid #000;
+}
+
+.footer-item i {
+  color: #a2a2a2;
+}
+
+/*----------Text----------*/
+
+/*index.html*/
+
+.bar-latest-news span {
+  margin: 0 auto;
+  display: block;
+  font-family: "Exo";
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
 .latest-news a {
   text-decoration: underline;
-  color: #A88E2F;
 }
 
 .latest-news p {
@@ -98,6 +75,25 @@ body {
   font-size: 20px;
 }
 
+/*recurring*/
+
+/*menu*/
+
+.menu-item a  {
+  text-decoration: none;
+  height: 40px;
+}
+
+.menu-item span {
+  display: block;
+  text-transform: uppercase;
+  font-family: "raleway";
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  padding-top: 13px;
+}
+
 /*footer*/
 
 .footer-item a {
@@ -106,32 +102,38 @@ body {
 
 .footer-item i {
   font-size: 30px;
-  color: #ffffff
 }
 
-/*----------Padding/Margins/Borders----------*/
+
+/*----------Padding/Margins----------*/
 
 /*index.html*/
 
 .bar-latest-news {
   padding: 0;
-  border: solid #070707 8px;
-  outline: solid #070707 1px;
 }
 
 .bar-music {
   padding: 0;
-  border: solid #070707 8px;
-  outline: solid #070707 1px;
 }
 
+.music {
+  padding: 0;
+}
+
+.index-content {
+  padding: 0;
+}
+
+.index-main-content {
+  padding-left: 10px;
+}
 
 /*tour.html*/
 
 .tour-events {
   margin-top: 90px;
   margin-bottom: 30px;
-  border-bottom: 2px solid #070707;
   padding-bottom: 10px;
 }
 
@@ -140,14 +142,12 @@ body {
 
 /*index.html*/
 
-.bar-latest-news {
-  width: 70%;
-  height: 60px;
+.index-content {
+  height: 530px;
 }
 
-.bar-music {
-  width: 30%;
-  height: 60px;
+.bar-latest-news {
+  width: 70%;
 }
 
 .latest-news {
@@ -162,17 +162,16 @@ body {
 
 /*----------Styling----------*/
 
+
 /*index.html*/
+
 
 .bar-latest-news {
   text-decoration: none;
   text-align: center;
 }
 
-.bar-music {
-  text-decoration: none;
-  text-align: center;
-}
+
 
 /*tour.html*/
 
@@ -181,7 +180,8 @@ body {
 
   .banner{
     margin-top: 60px;
-    background-image: url(../images/deftones_b.jpg);
+    margin: 0;
+    background-image: url(../images/deftones_banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -190,10 +190,16 @@ body {
 
 /*----------Recurring----------*/
 
+/*menu*/
+
 .menu {
   width: 100%;
   position: fixed;
   z-index: 999;
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .menu-item {
@@ -201,30 +207,22 @@ body {
   text-align: center;
 }
 
+/*footer*/
+
 footer {
-  color: #fafafa;
   min-height: 70px;
   margin: 0;
   padding-top: 17px;
-  background-image: url(../images/footer.jpg);
+  background-image: url(../images/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.footer-item a {
-  text-decoration: none;
-}
-
-.footer-item i {
-  font-size: 30px;
-  color: #ffffff
-}
-
 /*----------Hover----------*/
 
 .footer-item i:hover {
-  color: #c4c4c4;
+  color: #000;
   transition: all 0.20s ease-in-out;
   -moz-transition: all 0.20s ease-in-out;
   -webkit-transition: all 0.20s ease-in-out;
@@ -232,7 +230,7 @@ footer {
 }
 
 .hvr-grow:hover {
-  color: #c4c4c4;
+  color: #000;
   transition: all 0.20s ease-in-out;
   -moz-transition: all 0.520s ease-in-out;
   -webkit-transition: all 0.20s ease-in-out;
