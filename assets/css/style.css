@@ -1,17 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*----------Background-Colors----------*/
+/*----------Colors----------*/
 
 body {
   background-color: #000;
 }
 
 .menu {
-  border-bottom: 2px solid transparent;
+  border-bottom: 1px solid snow;
 }
 
 .menu-item a  {
   color: #a2a2a2;
+}
+
+.banner {
+  border-bottom: 1px solid snow;
+}
+
+.bar-latest-news {
+  border-bottom: 1px solid snow;
 }
 
 .bar-latest-news span {
@@ -31,13 +39,27 @@ body {
   border: 2px solid transparent;
 }
 
-.tour-events {
-  border-bottom: 2px solid #000;
+/*tour.html*/
+
+.events-border {
+  border-top: 2px solid snow;
 }
 
 .footer-item i {
   color: #a2a2a2;
 }
+
+.events p {
+  color: #D478C1;
+}
+
+.events h1 {
+  color: #A88E2F;
+}
+
+/*media.html*/
+
+
 
 /*----------Text----------*/
 
@@ -65,17 +87,17 @@ body {
 
 /*tour.html*/
 
-.tour-events p {
+.events h1 {
   font-family: "exo";
   font-size: 20px;
 }
 
-.tour-events h1 {
+.events p {
   font-family: "exo";
   font-size: 20px;
 }
 
-/*recurring*/
+/*media.html*/
 
 /*menu*/
 
@@ -113,12 +135,12 @@ body {
   padding: 0;
 }
 
-.bar-music {
-  padding: 0;
+.latest-news {
+  padding-top: 40px;
 }
 
-.music {
-  padding: 0;
+.twitter {
+  padding-top: 5px;
 }
 
 .index-content {
@@ -131,12 +153,19 @@ body {
 
 /*tour.html*/
 
-.tour-events {
-  margin-top: 90px;
-  margin-bottom: 30px;
-  padding-bottom: 10px;
+.tour-content {
+  margin-top: 60px;
 }
 
+.col-button {
+  padding-top: 25px;
+}
+
+/*media.html*/
+
+.media-content {
+  margin-top: 60px;
+}
 
 /*----------Sizing----------*/
 
@@ -154,26 +183,42 @@ body {
   width: 70%;
 }
 
-.music {
+.twitter {
   width: 30%;
+  height: 400px;
+}
+
+.well {
+  max-height: 400px;
 }
 
 /*tour.html*/
+
+.tour-events {
+  min-height: 80px;
+}
+
+.tour-events-ft {
+  min-height: 100px;
+}
+
+/*media.html*/
+
+.media-content {
+  height: 620px;
+}
 
 /*----------Styling----------*/
 
 
 /*index.html*/
 
-
 .bar-latest-news {
   text-decoration: none;
   text-align: center;
 }
 
-
-
-/*tour.html*/
+/*media.html*/
 
 
 /*----------Banner----------*/
