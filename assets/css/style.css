@@ -57,9 +57,9 @@ body {
   color: #A88E2F;
 }
 
-/*media.html*/
-
-
+.btn a {
+  color: #000;
+ }
 
 /*----------Text----------*/
 
@@ -96,8 +96,6 @@ body {
   font-family: "exo";
   font-size: 20px;
 }
-
-/*media.html*/
 
 /*menu*/
 
@@ -167,6 +165,13 @@ body {
   margin-top: 60px;
 }
 
+.gallery-content {
+  margin-top: 70px;
+}
+
+
+
+
 /*----------Sizing----------*/
 
 /*index.html*/
@@ -204,9 +209,12 @@ body {
 
 /*media.html*/
 
-.media-content {
-  height: 620px;
-}
+
+
+/*store.html*/
+
+
+
 
 /*----------Styling----------*/
 
@@ -218,19 +226,32 @@ body {
   text-align: center;
 }
 
-/*media.html*/
+/*tour.html*/
+
+.btn a {
+ text-decoration: none;
+}
 
 
 /*----------Banner----------*/
 
-  .banner{
+  .index-banner {
     margin-top: 60px;
-    margin: 0;
     background-image: url(../images/deftones_banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 420px;
+}
+
+  .store-banner {
+    margin-top: 62px;
+    background-image: url(../images/deftones_merch.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    min-height: 380px;
+    width: 96%
 }
 
 /*----------Recurring----------*/
